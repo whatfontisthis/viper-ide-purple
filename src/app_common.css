@@ -8,13 +8,13 @@
 
 :root {
     --fg-color: white;
-    --fg-color-highlight: orange;
-    --bg-color: #2a2e32;
-    --bg-color-menu: #2a2e32ee;
-    --bg-color-edit: #111314;
+    --fg-color-highlight: #c084fc;
+    --bg-color: #2d1b4e;
+    --bg-color-menu: #2d1b4eee;
+    --bg-color-edit: #1a0d2b;
     --font-size: 14px;
-    --connected-passive: #87c244;
-    --connected-active: orange;
+    --connected-passive: #a855f7;
+    --connected-active: #c084fc;
     --connected-color: var(--connected-passive);
     --animation: 0.3s ease-in-out;
 }
@@ -92,7 +92,7 @@ input[type="checkbox" i] {
 }
 
 button {
-    padding: 5px 5px;
+    padding: 8px 8px;
 }
 
 select {
@@ -114,7 +114,7 @@ button {
     border: none;
     color: unset;
     cursor: pointer;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 button.connected {

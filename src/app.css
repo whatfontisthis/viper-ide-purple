@@ -22,14 +22,16 @@ body.loaded {
 
 .logo {
     font-weight: normal;
+    font-size: 1.4em;
 }
 
 #tool-panel {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1px 5px;
+    padding: 8px 10px;
     user-select: none;
+    min-height: 50px;
 }
 
 #container {
